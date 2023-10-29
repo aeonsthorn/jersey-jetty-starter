@@ -12,7 +12,7 @@ import jakarta.ws.rs.core.Response;
 /**
  * http://localhost:9090/api/myresource
  */
-@Path("myresource")
+@Path("strings")
 public class StringController {
 
     private StringService stringService;
