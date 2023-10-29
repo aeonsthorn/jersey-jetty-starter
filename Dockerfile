@@ -12,7 +12,7 @@ COPY src ./src/
 RUN mvn clean package
 
 # Use the official Jetty image as the base image
-FROM jetty:11.0.15-jre8
+FROM jetty:9.4-jre8-alpine
 
 # Set the working directory in Docker to /app
 WORKDIR /app
