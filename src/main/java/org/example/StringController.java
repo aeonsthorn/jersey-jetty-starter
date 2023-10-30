@@ -5,13 +5,7 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
 
-// for demo 400:
-// application/javascript
 
-
-/**
- * http://localhost:9090/api/myresource
- */
 @Path("strings")
 public class StringController {
 
